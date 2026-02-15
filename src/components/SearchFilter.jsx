@@ -1,4 +1,4 @@
-function SearchFilter({ name, id, titulo, options }) {
+export function SearchFilter({ name, id, titulo, options }) {
     return (
         <select name={name} id={id}>
             <option value="">{titulo}</option>
@@ -21,5 +21,3 @@ function SearchFilter({ name, id, titulo, options }) {
         </select>
     )
 }
-
-export default SearchFilter

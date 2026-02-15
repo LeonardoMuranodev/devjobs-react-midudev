@@ -1,14 +1,12 @@
-import JobSearch from "./JobSearch"
-import ResultSearch from "./ResultSearch"
+import {JobSearch} from "./JobSearch.jsx"
+import {ResultSearch} from "./ResultSearch.jsx"
 
-function Main(){
+export function Main(){
     return (
         <main>
-            <JobSearch></JobSearch>
+            <JobSearch ></JobSearch>
 
-            <ResultSearch></ResultSearch>
+            <ResultSearch ></ResultSearch>
     </main>
     )
 }
-
-export default Main

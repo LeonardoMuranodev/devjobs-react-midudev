@@ -1,6 +1,6 @@
-import SearchFilter from "./SearchFilter"
+import {SearchFilter} from "./SearchFilter.jsx"
 
-function JobSearch(){
+export function JobSearch(){
 
     const technologies = [
         {
@@ -45,5 +45,3 @@ function JobSearch(){
         </section>
     )
 }
-
-export default JobSearch

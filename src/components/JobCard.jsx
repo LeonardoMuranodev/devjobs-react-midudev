@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, nivel }) {
+export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, nivel }) {
 
     // ¡Añadimos esto para ver cuándo se ejecuta!
     console.log('🔄 JobCard se está renderizando. Título:', titulo)
@@ -40,5 +40,3 @@ function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, 
         </article>
     )
 }
-
-export default JobCard
