@@ -1,0 +1,44 @@
+import {useState} from "react"
+
+function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, nivel }) {
+
+    // ¡Añadimos esto para ver cuándo se ejecuta!
+    console.log('🔄 JobCard se está renderizando. Título:', titulo)
+
+    const [isApplied, setIsApplied] = useState(false)
+    function handleClick() {
+        console.log('👆 Click en aplicar')
+        setIsApplied(true) // Cambiamos el estado a true
+    }
+
+    console.log('📊 Estado actual de aplicado:', isApplied)
+
+    const text = !isApplied ? 'Aplicar' : 'Aplicado'
+    const classNames = 'button-apply-job' + isApplied ? 'isApplied' : ""
+    
+    return (
+        <article className="job-listing-card">
+            <div>
+                <h3>{titulo}</h3>
+                <small>
+                {empresa} | {ubicacion}
+                </small>
+                <p>{descripcion}</p>
+                <div className="job-details">
+                    <span>💰 {salario}</span>
+                    <span>📍 {modalidad}</span>
+                    <span>📊 {nivel}</span>
+                </div>
+            </div>
+            <button
+                disabled={isApplied}
+                className={classNames}
+                onClick={handleClick}
+                >
+                {text}
+            </button>
+        </article>
+    )
+}
+
+export default JobCard
