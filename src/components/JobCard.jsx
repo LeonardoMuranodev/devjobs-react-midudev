@@ -11,10 +11,10 @@ export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, moda
         setIsApplied(true) // Cambiamos el estado a true
     }
 
-    console.log('📊 Estado actual de aplicado:', isApplied)
+    // console.log('📊 Estado actual de aplicado:', isApplied)
 
-    const text = !isApplied ? 'Aplicar' : 'Aplicado'
-    const classNames = 'button-apply-job' + isApplied ? 'isApplied' : ""
+    const buttonText = !isApplied ? 'Aplicar' : 'Aplicado'
+    const buttonClassNames = 'button-apply-job' + isApplied ? 'isApplied' : ""
     
     return (
         <article 
@@ -34,10 +34,10 @@ export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, moda
                 </div>
             </div>
             <button
-                className={classNames}
+                className={buttonClassNames}
                 onClick={handleClick}
                 >
-                {text}
+                {buttonText}
             </button>
         </article>
     )
