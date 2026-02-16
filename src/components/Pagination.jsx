@@ -1,7 +1,6 @@
 export function Pagination({currentPage = 1, totalPages= 10, onPageChange}){
 
     const pages = Array.from({length: totalPages}, (_, i) => i + 1)
-
     const isFirstPage = currentPage === 1
     const isLastPage = currentPage === totalPages
 
@@ -35,6 +34,12 @@ export function Pagination({currentPage = 1, totalPages= 10, onPageChange}){
             onPageChange(currentPage + 1)
         }
     }
+
+    console.log('🟢 Pagination renderizado', {
+        currentPage,
+        totalPages,
+        timestamp: new Date().toLocaleTimeString(),
+    })
 
     return (
         <nav className="pagination">

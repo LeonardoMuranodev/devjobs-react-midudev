@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, nivel }) {
+export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, modalidad, nivel, technology }) {
 
     // ¡Añadimos esto para ver cuándo se ejecuta!
     console.log('🔄 JobCard se está renderizando. Título:', titulo)
@@ -17,12 +17,15 @@ export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, moda
     const classNames = 'button-apply-job' + isApplied ? 'isApplied' : ""
     
     return (
-        <article className="job-listing-card">
+        <article 
+            className="job-listing-card"
+            data-modalidad={modalidad}
+            data-nivel={nivel}
+            data-technology={technology}
+        >
             <div>
                 <h3>{titulo}</h3>
-                <small>
-                {empresa} | {ubicacion}
-                </small>
+                <small>{empresa} | {ubicacion}</small>
                 <p>{descripcion}</p>
                 <div className="job-details">
                     <span>💰 {salario}</span>
@@ -31,7 +34,6 @@ export function JobCard({ titulo, empresa, ubicacion, descripcion, salario, moda
                 </div>
             </div>
             <button
-                disabled={isApplied}
                 className={classNames}
                 onClick={handleClick}
                 >
