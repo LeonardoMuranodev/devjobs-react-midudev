@@ -1,7 +1,9 @@
+import { Link } from "./Link";
+
 export function Header(){
     return (
         <header>
-            <a href="/">
+            <Link href="/">
                 <h1>
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -10,15 +12,15 @@ export function Header(){
                     </svg>
                     DevJobs
                 </h1>
-            </a>
+            </Link>
 
             <nav className="nav">
-                <a href="/" className="nav-link">
+                <Link href="/" className="nav-link">
                     Inicio
-                </a>
-                <a href="/search" className="nav-link">
+                </Link>
+                <Link href="/search" className="nav-link">
                     Buscar trabajos
-                </a>
+                </Link>
             </nav>
 
             <div>
