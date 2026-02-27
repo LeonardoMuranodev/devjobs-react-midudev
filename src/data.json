@@ -6,9 +6,11 @@
     "ubicacion": "Remoto",
     "descripcion": "Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación.",
     "data": {
-      "technology": ["react", "node", "javascript"],
+      "technology": "react",
       "modalidad": "remoto",
-      "nivel": "senior"
+      "nivel": "senior",
+      "salario": 4000,
+      "contrato": "Full time"
     }
   },
   {
@@ -20,7 +22,9 @@
     "data": {
       "technology": "python",
       "modalidad": "cdmx",
-      "nivel": "junior"
+      "nivel": "junior",
+      "salario": 2000,
+      "contrato": "Practicas"
     }
   },
   {
@@ -32,7 +36,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "guadalajara",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 3000,
+      "contrato": "Full time"
     }
   },
   {
@@ -44,7 +50,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 3500,
+      "contrato": "Full time"
     }
   },
   {
@@ -56,7 +64,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "barcelona",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 3000,
+      "contrato": "Freelance"
     }
   },
   {
@@ -68,7 +78,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "bsas",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 2500,
+      "contrato": "Full time"
     }
   },
   {
@@ -80,7 +92,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "remoto",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 2750,
+      "contrato": "Part time"
     }
   },
   {
@@ -92,7 +106,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "madrid",
-      "nivel": "senior"
+      "nivel": "senior",
+      "salario": 5000,
+      "contrato": "Full time"
     }
   },
   {
@@ -104,7 +120,9 @@
     "data": {
       "technology": "react",
       "modalidad": "valencia",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 2000,
+      "contrato": "Full time"
     }
   },
   {
@@ -116,7 +134,9 @@
     "data": {
       "technology": "node",
       "modalidad": "bogota",
-      "nivel": "mid"
+      "nivel": "mid",
+      "salario": 2250,
+      "contrato": "Part time"
     }
   },
   {
@@ -128,7 +148,9 @@
     "data": {
       "technology": "python",
       "modalidad": "remoto",
-      "nivel": "senior"
+      "nivel": "senior",
+      "salario": 6000,
+      "contrato": "Freelance"
     }
   },
   {
@@ -140,7 +162,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "lima",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 2500,
+      "contrato": "Full time"
     }
   },
   {
@@ -152,7 +176,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "santiago",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 3000,
+      "contrato": "Full time"
     }
   },
   {
@@ -164,7 +190,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "madrid",
-      "nivel": "mid-level"
+      "nivel": "mid-level",
+      "salario": 3500,
+      "contrato": "Freelance"
     }
   },
   {
@@ -176,7 +204,9 @@
     "data": {
       "technology": "mobile",
       "modalidad": "monterrey",
-      "nivel": "junior"
+      "nivel": "junior",
+      "salario": 1500,
+      "contrato": "Practicas"
     }
   }
 ]

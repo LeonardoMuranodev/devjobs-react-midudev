@@ -1,10 +1,10 @@
 import {JobCard} from "./JobCard.jsx"
 
-export function ResultSearch({jobs}) {
+export function ResultSearch({jobs, totalResults}) {
 
     return (
         <section>
-            <h2>Resultados de búsqueda</h2>
+            <h2>Resultados de búsqueda: ({totalResults})</h2>
 
             <div className="jobs-listings">
                 {jobs.map(e => 
